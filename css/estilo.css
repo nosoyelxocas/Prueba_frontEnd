@@ -6,20 +6,21 @@ html, body, header, nav, div, h1, h2, h3, ul, a, p{
 }
 
 body{
-    background-color: bisque;
+    background-color: #e2dcb8
 }
 
 header{
-    background-color: #ffffff;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+    padding-bottom: 30px;
 }
 
 header img{
     display: block;
     margin-right: auto;
-    width: 125px;
-    padding-right: 100px;
+    width: 100px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
     float: left;
 }
 
@@ -39,7 +40,7 @@ nav ul li {
 
 
 
-nav h1 a{
+nav ul li h1 a{
     float: left;
     text-decoration: none;
     color: #c33c3c;
@@ -73,16 +74,16 @@ header h1 a:hover{
 
 #contenedorone{
     float: left;
-    width: 35%;
+    width: 25%;
     height: 450px;
-    background-color: #c33c3c;
+    background-color: #a00c31;
     padding: 20px;
     margin-left: 5%;
     margin-right: 13%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 40px;
-    border:5px solid #111111;
+    border:3px solid #111111;
 }
 
 #contenedorone img{
@@ -93,19 +94,19 @@ header h1 a:hover{
 
 #cajatexto1{
     float: right;
-    width: 35%;
+    width: 25%;
     height: 450px;
-    background-color: #c33c3c;
+    background-color: #a00c31;
     padding: 20px;
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 40px;
-    border:5px solid #111111;
+    border:3px solid #111111;
 }
 
 #cajatexto1 ul li h2{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     padding-top: 10%;
@@ -124,10 +125,10 @@ header h1 a:hover{
     padding-bottom: 30px;
 }
 
-footer{
+footer h1{
     text-align: center;
     font-size: 24px;
-    background-color: #dbb384;
+    background-color: #b90d38;
     clear: both;
 }
 
@@ -142,13 +143,11 @@ main h1{
 
 
 
-
-
 .galeriaJuguetes{
     float: left;
-    background-color: #86c55c;
+    background-color: #943049;
     width: 30%;
-    height: 600px;
+    height: 700px;
     padding-bottom: 60px;
     margin-left: 35px;
     margin-right: 10px;
@@ -160,11 +159,35 @@ main h1{
 
 .galeriaJuguetes ul li h2{
     font-size: 30px;
+    color: #ffffff;
 }
+
+.galeriaJuguetes ul li h3{
+    font-size: 26px;
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.galeriaJuguetes .cajaStock{
+    float: left;
+    background-color: #ffffff;
+    width: 30px;
+    height: 20px;
+    margin-left: 510px;
+    margin-top: -67px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid #111111;
+}
+
 
 .galeriaJuguetes ul li p{
     font-size: 20px;
+    color: #ffffff;
 }
+
 
 .galeriaJuguetes ul{
     list-style: none;
@@ -182,13 +205,14 @@ main h1{
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 15px;
+    clear: right;
 }
 
 
 article{
     width: 60%;
     height: 700px;
-    background-color: #17c2c2;
+    background-color: #944458;
     padding: 20px;
     margin-left: 18%;
     margin-right: 20%;
